@@ -1,7 +1,7 @@
 import './FlipperCard.css'
 
 const FlipperCard = () => {
-  return (
+return ( 
     <>
       <div class="card">
         <div class="card-inner">
