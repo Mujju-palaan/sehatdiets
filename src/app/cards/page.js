@@ -9,16 +9,23 @@ const Cards = () => {
   return (
     <>
       <h1>All Cards are redirected her</h1>
-      <div style={{display: "flex",  flexWrap:'wrap', justifyContent:'center', alignItems:'center', gap:'2rem'}}>     
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "2rem",
+        }}
+      >
         <FlipperCard />
         <ProductCard />
         <ReviewCard />
-        <PricingCard/>
-        <PricingCard/>
-        <PricingCard/>
-        <MotionCard/>
-        <ProfileCard/>
-
+        <PricingCard />
+        <PricingCard />
+        <PricingCard />
+        <MotionCard />
+        <ProfileCard />
       </div>
     </>
   );

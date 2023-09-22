@@ -15,10 +15,14 @@
 
 .profileimage {
   height: 12rem;
-  width:12rem;
+  width: 12rem;
   border-radius: 0.5rem;
   background-color: rgb(118, 36, 194);
-  background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
+  background: linear-gradient(
+    to bottom right,
+    rgb(118, 36, 194),
+    rgb(185, 128, 240)
+  );
 }
 
 .profileinfo {
@@ -31,11 +35,10 @@
 
 .profilename {
   font-size: 2.5rem;
-  line-height: .25rem;   
+  line-height: 0.25rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
   margin: 10px 20px 20px 0;
-  
 }
 
 .profilefunction {
@@ -43,7 +46,6 @@
   line-height: 1.25rem;
   color: rgba(156, 163, 175, 1);
   margin: 0 0 15px 0;
-
 }
 
 .profilestats {
@@ -58,8 +60,6 @@
   line-height: 0.5rem;
   color: rgba(0, 0, 0, 1);
   margin-top: 0px;
-
-  
 }
 
 .profileflex {
@@ -82,7 +82,7 @@
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   background-color: #fff;
   color: black;
 }

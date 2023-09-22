@@ -1,14 +1,12 @@
-"use client"
-import HomePage from "../aaContainer/HomePage/HomePage"
-
+"use client";
+import HomePage from "../aaContainer/HomePage/HomePage";
 
 const Home = () => {
   return (
     <>
-      <HomePage/>
-      
+      <HomePage />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

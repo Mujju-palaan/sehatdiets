@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css' 
+import React from "react";
+import styles from "./styles.module.css";
 
 const Plans = (props) => {
   return (
@@ -7,24 +7,24 @@ const Plans = (props) => {
       <div className={styles.main}>
         <h1 className={styles.title}>{props.title}</h1>
         <div className={styles.content}>
-          <div style={{paddingBottom:'2rem'}}>
-            <h2 className={styles.heading}>{props.title1}</h2>      
+          <div style={{ paddingBottom: "2rem" }}>
+            <h2 className={styles.heading}>{props.title1}</h2>
             <p className={styles.content}>{props.Intro_content}</p>
           </div>
 
-          <div >
-            <h2 className={styles.heading} >{props.title3}</h2>
+          <div>
+            <h2 className={styles.heading}>{props.title3}</h2>
             <p className={styles.content}>{props.Approach_content}</p>
           </div>
 
           <h2 className={styles.heading}>{props.title4}</h2>
 
           <div>
-          <h2 className={styles.mb0}>
-            <span className={styles.circle}>1</span>{" "}
-            <span className={styles.heading}>{props.subtitle1}</span>
-          </h2>
-          <p className={styles.content}>{props.subcontent1}</p>
+            <h2 className={styles.mb0}>
+              <span className={styles.circle}>1</span>{" "}
+              <span className={styles.heading}>{props.subtitle1}</span>
+            </h2>
+            <p className={styles.content}>{props.subcontent1}</p>
           </div>
 
           <h2 className={styles.mb0}>
@@ -35,59 +35,34 @@ const Plans = (props) => {
 
           <h2 className={styles.mb0}>
             <span className={styles.circle}>3</span>{" "}
-            <span className={styles.heading}>{props.subtitle3}
-            
-            </span>
+            <span className={styles.heading}>{props.subtitle3}</span>
           </h2>
-          <p className={styles.content}>{props.subcontent3}
-          
-          </p>
+          <p className={styles.content}>{props.subcontent3}</p>
 
           <h2 className={styles.mb0}>
             <span className={styles.circle}>4</span>{" "}
-            <span className={styles.heading}>{props.subtitle4}
-            
-            </span>
+            <span className={styles.heading}>{props.subtitle4}</span>
           </h2>
-          <p className={styles.content}>{props.subcontent4}
-          
-          </p>
+          <p className={styles.content}>{props.subcontent4}</p>
 
           <h2 className={styles.mb0}>
             <span className={styles.circle}>5</span>{" "}
-            <span className={styles.heading}>{props.subtitle5}
-            
-            </span>
+            <span className={styles.heading}>{props.subtitle5}</span>
           </h2>
-          <p className={styles.content}>{props.subcontent5}
-          
-
-          </p>
+          <p className={styles.content}>{props.subcontent5}</p>
 
           <h2 className={styles.mb0}>
             {/* <span className={styles.circle}>7</span>{" "} */}
-            <span className={styles.heading}>{props.whytitle}
-              
-            </span>
+            <span className={styles.heading}>{props.whytitle}</span>
           </h2>
-          <p className={styles.content}>{props.whycontent1}
-          
-          </p>
-          <p className={styles.content}>{props.whycontent2}
-          
-          </p>
-          <p className={styles.content}>{props.whycontent3}
-          
-          </p>
+          <p className={styles.content}>{props.whycontent1}</p>
+          <p className={styles.content}>{props.whycontent2}</p>
+          <p className={styles.content}>{props.whycontent3}</p>
 
           <h2 className={styles.mb0}>
             <span className={styles.heading}>{props.contact}</span>
           </h2>
-          <p className={styles.content}>{props.contactcontent}
-          
-          </p>
-
-          
+          <p className={styles.content}>{props.contactcontent}</p>
         </div>
       </div>
     </>
@@ -96,14 +71,11 @@ const Plans = (props) => {
 
 export default Plans;
 
-
-
-
 // const Plans = () => {
 //   return (
 //     <div>
-        
-//         <div style={{ 
+
+//         <div style={{
 //               backgroundImage: `url(${bannerImg})`
 //             }}>
 //         </div>
@@ -113,14 +85,14 @@ export default Plans;
 //           <h2>Transform Your Life with Our Personalized Weight Loss Program</h2>
 
 //           <h2>Introduction:</h2>
-//           <p>Welcome to our Weight Loss Program, where we are committed to helping you achieve your 
-//             health and wellness goals through tailored and effective weight management strategies. 
-//             Our team of dedicated professionals understands that each person's weight loss journey is unique, 
+//           <p>Welcome to our Weight Loss Program, where we are committed to helping you achieve your
+//             health and wellness goals through tailored and effective weight management strategies.
+//             Our team of dedicated professionals understands that each person's weight loss journey is unique,
 //             and we're here to provide the guidance and support you need. </p>
 
 //           <h2>Our Approach:</h2>
-//           <p>At SEHAT , we believe in a holistic approach to weight loss. Our personalized weight loss 
-//             program is designed to address your specific needs, preferences, and lifestyle, ensuring that 
+//           <p>At SEHAT , we believe in a holistic approach to weight loss. Our personalized weight loss
+//             program is designed to address your specific needs, preferences, and lifestyle, ensuring that
 //             you reach and maintain your ideal weight in a healthy and sustainable way.</p>
 
 //           <h2>Key Features:</h2>
@@ -135,7 +107,7 @@ export default Plans;
 
 //             <span>
 //               <h2>3. **Effective Strategies:**</h2>
-//               <p>Our program combines scientifically proven techniques, such as calorie control, exercise routines, 
+//               <p>Our program combines scientifically proven techniques, such as calorie control, exercise routines,
 //                 and behavior modification, to ensure successful weight loss.</p>
 //             </span>
 //             <span>
@@ -146,7 +118,6 @@ export default Plans;
 //               <h2>5. **Health Benefits:*</h2>
 //               <p>Achieving a healthy weight can lead to improved overall health, reduced risk of chronic diseases, and increased vitality.</p>
 //             </span>
-            
 
 //         </div>
 

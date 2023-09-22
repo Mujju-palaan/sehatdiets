@@ -1,13 +1,12 @@
-import React from 'react'
-import DiabetesDeitProgram from '../aaContainer/Plans/DiabetesDeitProgram'
+import React from "react";
+import DiabetesDeitProgram from "../aaContainer/Plans/DiabetesDeitProgram";
 
 const page = () => {
   return (
     <div>
-        <DiabetesDeitProgram/>
-
+      <DiabetesDeitProgram />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

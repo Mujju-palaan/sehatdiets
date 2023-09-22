@@ -1,12 +1,12 @@
-import React from 'react'
-import WeightGainPrograms from '../aaContainer/Plans/WeightGainPrograms'
+import React from "react";
+import WeightGainPrograms from "../aaContainer/Plans/WeightGainPrograms";
 
 const page = () => {
   return (
     <div>
-        <WeightGainPrograms/>
+      <WeightGainPrograms />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

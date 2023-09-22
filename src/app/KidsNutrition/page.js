@@ -1,12 +1,12 @@
-import React from 'react'
-import KidsNutrition from '../aaContainer/Plans/KidsNutrition'
+import React from "react";
+import KidsNutrition from "../aaContainer/Plans/KidsNutrition";
 
 const page = () => {
   return (
     <div>
-        <KidsNutrition/>
+      <KidsNutrition />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

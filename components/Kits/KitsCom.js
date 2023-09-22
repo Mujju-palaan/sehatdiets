@@ -1,15 +1,20 @@
-"use client"
+"use client";
 import React from "react";
-import styles from "./style.module.css"; 
+import styles from "./style.module.css";
 import { FcRight } from "react-icons/fc";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 const KitsCom = (props) => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
       <div className={styles.container}>
+        {/* <Image 
+        className={styles.imgsize} 
+        src={props.image} 
+        /> */}
         <img className={styles.imgsize} src={props.image}></img>
         <h2>{props.title}</h2>
         <Link href={`/${props.link}`} onClick={() => setOpenMenu(false)}>

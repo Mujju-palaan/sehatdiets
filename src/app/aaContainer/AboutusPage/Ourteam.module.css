@@ -1,26 +1,23 @@
 /* *******************TEAM************************ */
 
-.teamcontainer{
-    font-weight: normal;
-    padding: 2rem;
+.teamcontainer {
+  font-weight: normal;
+  padding: 2rem;
 }
-@media screen and (max-width: 400px) {	
-	.teamcontainer h1{
+@media screen and (max-width: 400px) {
+  .teamcontainer h1 {
     font-size: 4rem;
+  }
 }
-}	
 
-@media screen and (max-width: 585px) {	
-	
-}	
-	
-@media screen and (max-width: 750px) {	
-	
-}	
-	
-@media screen and (min-width: 1350px) {	
-	
-}	
+@media screen and (max-width: 585px) {
+}
+
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (min-width: 1350px) {
+}
 
 /* ***********SWIPER**************** */
 
@@ -84,8 +81,8 @@
   font-size: 1.6rem;
   background: var(--bg);
 } */
-.swipper{
-    width: 100%
+.swipper {
+  width: 100%;
 }
 .container {
   max-width: 100%;
@@ -199,7 +196,7 @@
 }
 
 .slider-controler .slider-arrow::after {
-  content: '';
+  content: "";
 }
 
 .swiper-pagination {

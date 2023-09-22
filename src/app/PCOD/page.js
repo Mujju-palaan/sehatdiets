@@ -1,12 +1,12 @@
-import React from 'react'
-import PCOD from '../aaContainer/Plans/PCOD'
+import React from "react";
+import PCOD from "../aaContainer/Plans/PCOD";
 
 const page = () => {
   return (
     <div>
-        <PCOD/>
+      <PCOD />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

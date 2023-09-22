@@ -1,4 +1,4 @@
-import styles from './CancellationRefundPage.module.css'
+import styles from "./CancellationRefundPage.module.css";
 
 const CancellationRefundPage = () => {
   return (

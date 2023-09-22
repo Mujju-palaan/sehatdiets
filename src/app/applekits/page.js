@@ -5,10 +5,9 @@ const page = () => {
   return (
     <div>
       <Kits
-        bannerImage='home_applekit.png'
+        bannerImage="home_applekit.png"
         title={`Samsung Kit`}
         content={`We provie Air pods, iPad, iwatch`}
-
         img1="home_applekit.png"
         title1={`Air Pods`}
         img2="home_applekit.png"

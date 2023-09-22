@@ -1,12 +1,12 @@
-import React from 'react'
-import MenopauseDeitProgram from '../aaContainer/Plans/MenopauseDeitProgram'
+import React from "react";
+import MenopauseDeitProgram from "../aaContainer/Plans/MenopauseDeitProgram";
 
 const page = () => {
   return (
     <div>
-        <MenopauseDeitProgram/>
+      <MenopauseDeitProgram />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

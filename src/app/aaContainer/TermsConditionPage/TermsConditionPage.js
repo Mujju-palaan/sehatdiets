@@ -4,10 +4,15 @@ const TermsConditionPage = () => {
   return (
     <>
       <div className={styles.main}>
-        <h2 className={styles.heading} style={{textAlign:'center'}}>SEHAT NUTRITION Subscription Agreement</h2>
+        <h2 className={styles.heading} style={{ textAlign: "center" }}>
+          SEHAT NUTRITION Subscription Agreement
+        </h2>
         <div className={styles.content}>
-          <h2><span className={styles.circle}>1</span> <span className={styles.heading}>Preamble</span></h2>
-          <p >
+          <h2>
+            <span className={styles.circle}>1</span>{" "}
+            <span className={styles.heading}>Preamble</span>
+          </h2>
+          <p>
             This instrument herewith and forthwith enters into the realm of
             contractual arrangements ascribed hitherto as the "SEHAT NUTRITION
             Subscription Agreement" (hereinafter referred to as the "Agreement")
@@ -23,8 +28,12 @@ const TermsConditionPage = () => {
             enumerated clauses hitherto and hereinbelow enunciated.
           </p>
 
-          <h2><span className={styles.circle}>2</span> 
-          <span className={styles.heading}>Utmost Assemblage of Wellness Propositions</span></h2>
+          <h2>
+            <span className={styles.circle}>2</span>
+            <span className={styles.heading}>
+              Utmost Assemblage of Wellness Propositions
+            </span>
+          </h2>
           <p>
             The intrepid and sagacious Party of the Second Part, SEHAT
             NUTRITION, as a distinguished purveyor of health and wellness
@@ -45,7 +54,12 @@ const TermsConditionPage = () => {
             Subscriber's proclivities.
           </p>
 
-          <h2><span className={styles.circle}>3</span> <span className={styles.heading}>Pecuniary Ingress and Predilection</span></h2>
+          <h2>
+            <span className={styles.circle}>3</span>{" "}
+            <span className={styles.heading}>
+              Pecuniary Ingress and Predilection
+            </span>
+          </h2>
           <p>
             The Party of the First Part, hereinafter referred to as the
             "Subscriber," consents to remunerate the Party of the Second Part,
@@ -63,7 +77,12 @@ const TermsConditionPage = () => {
             imposed.
           </p>
 
-          <h2><span className={styles.circle}>4</span> <span className={styles.heading}>Conundrums Pertaining to Devices of Health Tracking Persuasion</span></h2>
+          <h2>
+            <span className={styles.circle}>4</span>{" "}
+            <span className={styles.heading}>
+              Conundrums Pertaining to Devices of Health Tracking Persuasion
+            </span>
+          </h2>
           <p>
             In a gesture of munificence, the Company has felicitously extended
             the benediction of complimentary rental of Health Tracking Devices
@@ -84,7 +103,12 @@ const TermsConditionPage = () => {
             inclination in this infernal labyrinthine traverse.
           </p>
 
-          <h2><span className={styles.circle}>5</span> <span className={styles.heading}>Clandestine Expeditions into the Abyss of Data</span></h2>
+          <h2>
+            <span className={styles.circle}>5</span>{" "}
+            <span className={styles.heading}>
+              Clandestine Expeditions into the Abyss of Data
+            </span>
+          </h2>
           <p>
             The Company, in pursuance of its esteemed mission to illuminate the
             path to holistic health and existential plenitude, is imbued with
@@ -97,7 +121,12 @@ const TermsConditionPage = () => {
             proclivities of the Subscriber.
           </p>
 
-          <h2><span className={styles.circle}>6</span> <span className={styles.heading}>Solemn Renouncement of Prejudicial Predilections</span></h2>
+          <h2>
+            <span className={styles.circle}>6</span>{" "}
+            <span className={styles.heading}>
+              Solemn Renouncement of Prejudicial Predilections
+            </span>
+          </h2>
           <p>
             The luminary empyrean of SEHAT NUTRITION transcends the terrestrial
             quagmires of prejudice or partiality. The Company, hereinafter
@@ -111,7 +140,12 @@ const TermsConditionPage = () => {
             hallowed boundaries of divisiveness.
           </p>
 
-          <h2><span className={styles.circle}>7</span> <span className={styles.heading}>Obligation to Discern the Pari Passu Predicaments</span></h2>
+          <h2>
+            <span className={styles.circle}>7</span>{" "}
+            <span className={styles.heading}>
+              Obligation to Discern the Pari Passu Predicaments
+            </span>
+          </h2>
           <p>
             In full cognizance of the legal compulsion to discern and comprehend
             the intricate and arcanum tenets herein enunciated, the Subscriber,
@@ -127,7 +161,12 @@ const TermsConditionPage = () => {
             unequivocally vests with the esteemed Subscriber.
           </p>
 
-          <h2><span className={styles.circle}>8</span> <span className={styles.heading}>Termination, Enigmatic Consequences, and Ancillary Relinquishment</span></h2>
+          <h2>
+            <span className={styles.circle}>8</span>{" "}
+            <span className={styles.heading}>
+              Termination, Enigmatic Consequences, and Ancillary Relinquishment
+            </span>
+          </h2>
           <p>
             The Subscriber, in acknowledging the esoteric arcana of this
             Agreement, is further sanctified with the epiphany that the
@@ -142,8 +181,12 @@ const TermsConditionPage = () => {
             third-party annals.
           </p>
 
-
-          <h2><span className={styles.circle}>9</span> <span className={styles.heading}>Governing Canonical Prescripts and Arbiterial Antipodes</span></h2>
+          <h2>
+            <span className={styles.circle}>9</span>{" "}
+            <span className={styles.heading}>
+              Governing Canonical Prescripts and Arbiterial Antipodes
+            </span>
+          </h2>
           <p>
             This ethereal Agreement shall be governed by the prevailing corpus
             of jurisprudential mandates and lawful precepts within the tangible
@@ -153,7 +196,10 @@ const TermsConditionPage = () => {
             city/region].
           </p>
 
-          <h2><span className={styles.circle}>10</span> <span className={styles.heading}>Alchemy of Mutable Agreement</span></h2>
+          <h2>
+            <span className={styles.circle}>10</span>{" "}
+            <span className={styles.heading}>Alchemy of Mutable Agreement</span>
+          </h2>
           <p>
             The Company reserves the resplendent right, at its prerogative and
             volition, to transmute, transmogrify, or transfigure this Agreement
@@ -165,8 +211,10 @@ const TermsConditionPage = () => {
             amended tenets thereof.
           </p>
 
-
-          <h2><span className={styles.circle}>11</span> <span className={styles.heading}>Conclusion</span></h2>
+          <h2>
+            <span className={styles.circle}>11</span>{" "}
+            <span className={styles.heading}>Conclusion</span>
+          </h2>
           <p>
             By subscribing to SEHAT NUTRITION, you hereby and indelibly attest
             that you have meticulously read, discerningly understood, and

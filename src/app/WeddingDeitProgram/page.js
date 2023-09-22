@@ -1,12 +1,12 @@
-import React from 'react'
-import WeddingDeitProgram from '../aaContainer/Plans/WeddingDeitProgram'
+import React from "react";
+import WeddingDeitProgram from "../aaContainer/Plans/WeddingDeitProgram";
 
 const page = () => {
   return (
     <div>
-        <WeddingDeitProgram/>
+      <WeddingDeitProgram />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

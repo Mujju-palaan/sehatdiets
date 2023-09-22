@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from '../../../../components/planscard/Card';
-import './Homeslider.css'
+import React from "react";
+import Card from "../../../../components/planscard/Card";
+import "./Homeslider.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,39 +10,38 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 // import "swiper/css/breakpoints";
 
-
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
 
 const HomeSlider = () => {
   return (
     <div>
-        <div className="container">
+      <div className="container">
         <Swiper
-        breakpoints={{
-          0: {
-            slidesPerView: 1,
-          },
-          400:{
-            slidesPerView:2,
-          },
-          639: {
-            slidesPerView: 2,
-          },
-          865:{
-            slidesPerView:4
-          },
-          1000:{
-            slidesPerView:3
-          },
-          1500:{
-            slidesPerView:3
-          },
-          1700:{
-            slidesPerView:3
-          }
-        }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            400: {
+              slidesPerView: 2,
+            },
+            639: {
+              slidesPerView: 2,
+            },
+            865: {
+              slidesPerView: 4,
+            },
+            1000: {
+              slidesPerView: 3,
+            },
+            1500: {
+              slidesPerView: 3,
+            },
+            1700: {
+              slidesPerView: 3,
+            },
+          }}
           autoplay={{
-            delay:500,
+            delay: 500,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
@@ -52,7 +51,7 @@ const HomeSlider = () => {
           grabCursor={true}
           centeredSlides={true}
           loop={true}
-          slidesPerView={3} 
+          slidesPerView={3}
           watchOverflow={"none"}
           coverflowEffect={{
             rotate: 0,
@@ -75,7 +74,7 @@ const HomeSlider = () => {
               title="Weight Loss"
               content={`Transform Your Life with Our Personalized Weight Loss Program.`}
               Images="./prog_weightloss.jpg"
-              link='WeightLossPrograms'
+              link="WeightLossPrograms"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -83,7 +82,7 @@ const HomeSlider = () => {
               title="Weight Gain"
               content={`Achieve Healthy Weight Gain with Our Personalized Program.`}
               Images="./prog_weightgain.jpg"
-              link='WeightGainPrograms'
+              link="WeightGainPrograms"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -91,7 +90,7 @@ const HomeSlider = () => {
               title="Diabetes"
               content={`Expertly Crafted Diabetes Diet Plans for Optimal Health.`}
               Images="./prog_diabeties.jpg"
-              link='DiabetesDeitProgram'
+              link="DiabetesDeitProgram"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -99,7 +98,7 @@ const HomeSlider = () => {
               title="PCOD/PCOS"
               content={`Empowering Women with Our Comprehensive PCOD/PCOS Management Program.`}
               Images="./prog_pcod.jpg"
-              link='PCOD'
+              link="PCOD"
             />
           </SwiperSlide>
           {/* <SwiperSlide>
@@ -125,7 +124,7 @@ const HomeSlider = () => {
               title="Wedding"
               content={`Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program.`}
               Images="./prog_wedding.jpg"
-              link='WeddingDeitProgram'
+              link="WeddingDeitProgram"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -133,7 +132,7 @@ const HomeSlider = () => {
               title="Menopause"
               content={`Embrace Menopause with Vitality: Our Personalized Menopause Diet Program.`}
               Images="./prog_monopause.jpg"
-              link='MenopauseDeitProgram'
+              link="MenopauseDeitProgram"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -141,7 +140,7 @@ const HomeSlider = () => {
               title="Kids Nutrition"
               content={`Nurturing Healthy Futures: Our Specialized Kids Nutrition Program.`}
               Images="./prog_kidsdiet.jpg"
-              link='KidsNutrition'
+              link="KidsNutrition"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -149,7 +148,7 @@ const HomeSlider = () => {
               title="Fitness Plan"
               content={`Elevate Your Performance with Our Custom Fitness Programs.`}
               Images="./prog_fastfit.jpg"
-              link='FitnessPerformance'
+              link="FitnessPerformance"
             />
           </SwiperSlide>
 
@@ -165,7 +164,7 @@ const HomeSlider = () => {
         </Swiper>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeSlider
+export default HomeSlider;

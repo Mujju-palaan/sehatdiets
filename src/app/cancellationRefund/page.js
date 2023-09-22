@@ -1,11 +1,11 @@
-import CancellationRefundPage from "../aaContainer/CancellationRefundPage/CancellationRefundPage"
+import CancellationRefundPage from "../aaContainer/CancellationRefundPage/CancellationRefundPage";
 
 const page = () => {
   return (
     <>
-        <CancellationRefundPage/>
+      <CancellationRefundPage />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

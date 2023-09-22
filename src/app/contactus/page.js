@@ -1,11 +1,11 @@
 import ContactusPage from "../aaContainer/ContactusPage/ContactusPage";
 
 const Contact = () => {
-    return (
-        <>
-            <ContactusPage/>
-        </>
-    );
+  return (
+    <>
+      <ContactusPage />
+    </>
+  );
 };
 
 export default Contact;
