@@ -65,7 +65,8 @@ const Businesspricing = (props) => {
           </ul>
         </div>
         <div className="button-get-plan">
-          <a href="https://buy.stripe.com/bIYbMufqx3K928UdQQ">
+          {/* <a href="https://buy.stripe.com/fZe7wea6d3K914QdQV"> */}
+          <a href={props.link}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"

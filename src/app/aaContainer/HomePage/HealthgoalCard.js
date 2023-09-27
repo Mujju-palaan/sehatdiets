@@ -16,7 +16,7 @@ const HealthgoalCard = () => {
           <p1>Tailored to Your Unique Needs</p1>
           <div className={styles.btn}>
             <Link href={`/pricing`} onClick={() => setOpenMenu(false)}>
-              <button> Try Now </button>
+              {/* <button> Try Now </button> */}
             </Link>
           </div>
         </div>

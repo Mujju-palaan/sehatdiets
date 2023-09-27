@@ -6,7 +6,9 @@ import PlansButton from "./PlansButton";
 const KidsNutrition = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.KidsbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Nurturing Healthy Futures: Our Specialized Kids Nutrition Program"

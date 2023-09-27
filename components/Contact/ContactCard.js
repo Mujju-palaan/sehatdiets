@@ -17,7 +17,7 @@ const ContactCard = () => {
             <h2>Email</h2>
             <p>Monday to Friday Expected </p>
             <p className={styles.last_para}>response time: 48-72 hours </p>
-            <Link href="mailto:max.mustermann@example.com?body=My custom mail body">
+            <Link href="mailto:max.support@sehatdiets.com?body=My custom mail body">
               {" "}
               Send Email <span>-&gt;</span>
             </Link>

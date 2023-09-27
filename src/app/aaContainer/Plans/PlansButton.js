@@ -22,17 +22,17 @@ const PlansButton = () => {
           <button className={styles.btn}>Kid's Nutrition</button>
         </Link>
         <Link href="/WeddingDeitProgram" onClick={() => setOpenMenu(false)}>
-          <button className={styles.btn}>Wedding Diet</button>
+          <button className={styles.btn}>Wedding</button>
         </Link>
         <Link href="/PCOD" onClick={() => setOpenMenu(false)}>
-          <button className={styles.btn}>PCOD Diet</button>
+          <button className={styles.btn}>PCOD</button>
         </Link>
 
         <Link href="/DiabetesDeitProgram" onClick={() => setOpenMenu(false)}>
-          <button className={styles.btn}>Diabetes Diet</button>
+          <button className={styles.btn}>Diabetes</button>
         </Link>
         <Link href="/MenopauseDeitProgram" onClick={() => setOpenMenu(false)}>
-          <button className={styles.btn}>Menopause Deit</button>
+          <button className={styles.btn}>Menopause</button>
         </Link>
       </div>
     </div>

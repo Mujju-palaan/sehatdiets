@@ -65,7 +65,7 @@ const Familypricing = (props) => {
           </ul>
         </div>
         <div className="button-get-plan">
-          <a href="https://buy.stripe.com/3cs7we5PX6Wl7te28c">
+          <a href={props.link}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"

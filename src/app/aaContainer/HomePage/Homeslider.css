@@ -89,11 +89,10 @@ html {
   overflow: visible;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .container {
     padding: 1rem 1rem;
     margin: 0 auto;
-    /* overflow: visible; */
   }
   .swiper_container {
     height: 52rem;
@@ -121,7 +120,7 @@ html {
     width: 28rem !important;
     height: 36rem !important;
   }
-}
+} */
 
 .swiper-slide img {
   /* width: 37rem;

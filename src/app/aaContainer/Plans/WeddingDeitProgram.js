@@ -7,7 +7,9 @@ import PlansButton from "./PlansButton";
 const WeddingDeitProgram = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.WeddingbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Achieve Your Dream Wedding Look with Our Specialized Wedding Diet Program"

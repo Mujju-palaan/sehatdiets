@@ -6,7 +6,9 @@ import PlansButton from "./PlansButton";
 const DiabetesDeitProgram = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.DiabetesbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Expertly Crafted Diabetes Diet Plans for Optimal Health"

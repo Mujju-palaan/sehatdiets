@@ -36,43 +36,20 @@
   text-decoration: none;
   display: flex;
 }
-/* *****************KITS img CARD************************************* */
 
-.imgsize1 {
-  object-fit: cover;
-  height: 36rem;
-  width: 36rem;
-  border-radius: 8px;
-}
-.container1 {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  max-width: 36rem;
-  min-width: 36rem;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.5s;
-  background-color: antiquewhite;
-}
-/* .container1:hover {
-    transform: scale(1.05);
-    border: 1px solid #3d3d6b;
-    } */
 
 @media screen and (max-width: 400px) {
   .container {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     max-width: 34rem;
     min-width: 30rem;
     height: auto;
-    border-radius: 8px;
-    transition: transform 0.5s;
   }
   .container h2 {
     margin: 0%;
   }
   .imgsize {
-    object-fit: cover;
-    height: 34rem;
+    object-fit: contain;
+    height: auto;
     width: 34rem;
     border-radius: 8px;
   }

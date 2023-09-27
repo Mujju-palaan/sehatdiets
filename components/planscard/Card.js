@@ -14,10 +14,10 @@ const Card = (props) => {
           {/* <Image src='/nutritionist.png'></Image> */}
           <img
             className={styles.imgs}
-            style={{ objectFit: "cover", margin: ".5rem" }}
+            // style={{ objectFit: "cover", margin: ".5rem" }}
             src={props.Images}
-            height={300}
-            width={328}
+            // height={300}
+            // width={328}
           ></img>
           <div className={styles.card_content}>
             <h2 style={{ fontSize: "3rem", textAlign: "center" }}>

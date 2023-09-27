@@ -6,7 +6,9 @@ import PlansButton from "./PlansButton";
 const MenopauseDeitProgram = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.MonopausebannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Embrace Menopause with Vitality: Our Personalized Menopause Diet Program"

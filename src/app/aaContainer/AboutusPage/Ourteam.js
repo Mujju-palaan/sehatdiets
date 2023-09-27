@@ -19,14 +19,46 @@ const Ourteam = () => {
       <h1>Our Health</h1>
       <h1 style={{ color: "#609a33" }}>Specialist Team</h1>
       <div className="container">
-        <Swiper
+        <Swiper 
+        // install Swiper modules
+        breakpoints={{
+          0: {
+            width: 400,
+            slidesPerView: 1,
+          },
+          400: {
+            width: 400,
+            slidesPerView: 1,
+          },
+          639: {
+            width: 639,
+            slidesPerView: 2,
+          },
+          865: {
+            width: 865,
+            slidesPerView: 3,
+          },
+          1000: {
+            width: 1000,
+            slidesPerView: 3,
+          },
+          1500: {
+            width: 1500,
+            slidesPerView: 3,
+          },
+          1700: {
+            width: 1700,
+            slidesPerView: 3,
+          },
+        }}
+        scrollbar={{ draggable: true }}
           autoplay={{
             delay: 1000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
-          spaceBetween={150}
-          style={{ overflow: "hidden" }}
+          spaceBetween={30}
+          style={{ overflow: "hidden"}}
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -49,7 +81,7 @@ const Ourteam = () => {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="swiper_container"
         >
-          <SwiperSlide>
+          <SwiperSlide style={{marginRight:'0'}}>
             <KitsimgCard
               image="./aboutus_team.png"
               title={`Oliver`}
@@ -115,6 +147,8 @@ const Ourteam = () => {
             </div>
             <div className="swiper-pagination"></div>
           </div> */}
+
+          
         </Swiper>
       </div>
     </div>

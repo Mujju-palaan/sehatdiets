@@ -6,7 +6,9 @@ import PlansButton from "./PlansButton";
 const PCOD = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.PCODbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Empowering Women with Our Comprehensive PCOD/PCOS Management Program"

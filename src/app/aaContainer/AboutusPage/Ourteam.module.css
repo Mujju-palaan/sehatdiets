@@ -8,6 +8,9 @@
   .teamcontainer h1 {
     font-size: 4rem;
   }
+  .swiper_container{
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 585px) {
@@ -115,6 +118,7 @@
 @media (max-width: 500px) {
   .swiper_container {
     height: 47rem;
+    width: 500px;
   }
   .swiper-slide {
     width: 28rem !important;

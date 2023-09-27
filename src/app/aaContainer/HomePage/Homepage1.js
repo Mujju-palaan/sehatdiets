@@ -42,7 +42,7 @@ const Homepage1 = () => {
           <div className={homestyle.part1_content}>
             <h2>Personalized Wellness for a Healthier You</h2>
             <p>Get Started Quickly</p>
-            <button> Try for Free</button>
+            {/* <button> Try for Free</button> */}
           </div>
 
           <div>

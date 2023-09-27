@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/autoplay";
+import "swiper/css/autoplay"; 
 // import "swiper/css/breakpoints";
 
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper";
@@ -22,41 +22,48 @@ const HomeSlider = () => {
               slidesPerView: 1,
             },
             400: {
+              width: 400,
               slidesPerView: 2,
             },
             639: {
+              width: 639,
               slidesPerView: 2,
             },
             865: {
+              width: 865,
               slidesPerView: 4,
             },
             1000: {
+              width: 1000,
               slidesPerView: 3,
             },
             1500: {
+              width: 1500,
               slidesPerView: 3,
             },
             1700: {
+              width: 1700,
               slidesPerView: 3,
             },
           }}
           autoplay={{
-            delay: 500,
+            delay: 1000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
-          spaceBetween={50}
+          freeMode={true}
+          spaceBetween={150}
           style={{ overflow: "hidden" }}
           effect={"coverflow"}
           grabCursor={true}
-          centeredSlides={true}
+          centeredSlides={false}
           loop={true}
           slidesPerView={3}
           watchOverflow={"none"}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
-            depth: 300,
+            depth: 100,
             modifier: 1,
             watchOverflow: "visible",
           }}
@@ -101,24 +108,6 @@ const HomeSlider = () => {
               link="PCOD"
             />
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <Card
-              title="Cardiovascular Health Improvement Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/prog_health.jpg"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              title="Pregnancy and Post Pregnancy Deit Program"
-              content={`Our experienced medical professionals put your healing needs first. We are proud to 
-          provide a high-quality level of customer service, medical experience, and commitment to 
-          health and wellness to all our patients. Our goal is to make you feel better as quickly as possible.`}
-              Images="/prog_pragnent.jpg"
-            />
-          </SwiperSlide> */}
           <SwiperSlide>
             <Card
               title="Wedding"
@@ -152,15 +141,6 @@ const HomeSlider = () => {
             />
           </SwiperSlide>
 
-          {/* <div className="slider-controler" style={{ paddingTop: "0" }}>
-            <div className="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div className="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div> */}
         </Swiper>
       </div>
     </div>

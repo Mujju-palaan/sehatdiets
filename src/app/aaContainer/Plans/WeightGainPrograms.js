@@ -6,7 +6,9 @@ import PlansButton from "./PlansButton";
 const WeightGainPrograms = () => {
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.WeightGainbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Achieve Healthy Weight Gain with Our Personalized Program"

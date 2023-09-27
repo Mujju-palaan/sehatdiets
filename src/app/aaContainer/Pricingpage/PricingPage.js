@@ -29,6 +29,7 @@ const PricingPage = () => {
           content4={`Progress Tracking`}
           content5={`Apple/Samsung Kit`}
           content6={`.`}
+          link={`https://buy.stripe.com/dR64k21zH80pbJuaEG`}
         />
         <Familypricing
           title={`Family Plan`}
@@ -40,6 +41,7 @@ const PricingPage = () => {
           content4={`Progress Tracking`}
           content5={`Covers 5 family members`}
           content6={`Apple/Samsung Kit each`}
+          link={`https://buy.stripe.com/3cs7we5PX6Wl7te28c`}
         />
         <Businesspricing
           title={`Corporate Plan`}
@@ -51,6 +53,7 @@ const PricingPage = () => {
           content4={`Progress Tracking`}
           content5={`Covers up to 50 employees`}
           content6={`Apple/Samsung Kit each`}
+          link={`https://buy.stripe.com/fZe7wea6d3K914QdQV`}
         />
       </div>
       {/* <div className={styles.contact_section}>

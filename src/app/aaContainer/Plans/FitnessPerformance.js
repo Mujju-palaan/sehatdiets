@@ -9,7 +9,9 @@ const FitnessPerformance = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <div>
+      <div className={styles.main}>
       <div className={styles.FitnessbannerImg}></div>
+      </div>
       <PlansButton />
       <Plans
         title="Elevate Your Performance with Our Custom Fitness Programs"

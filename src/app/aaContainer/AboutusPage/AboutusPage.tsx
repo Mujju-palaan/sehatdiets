@@ -1,16 +1,34 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./AboutusPage.module.css";
 import Ourteam from "./Ourteam";
 import AboutusContent from "./AboutusContent";
+import hover3d from '../../aaUtlis/hoverImg'
 
 const AboutusPage = () => {
+  const hero = useRef<HTMLDivElement>(null);
+
+  const hoverHero = hover3d(hero, {
+    x: 30,
+    y: -40,
+    z: 30,
+  });
+
+  const imageHover = hover3d(hero, {
+    x: 20,
+    y: -5,
+    z: 11,
+  });
   return (
     <>
+    
       <div className={styles.container}>
+      <div ref={hero}>
         <div className={styles.flex}>
-          <div>
-            <img className={styles.size} src="./aboutus_healthcheckup.jpg" />
+          <div style={{transform: hoverHero.transform,}}>
+            <img className={styles.size} src="./aboutus_healthcheckup.jpg" style={{
+                transform: imageHover.transform,
+              }}/>
           </div>
           <div className={styles.content}>
             <h1 className={styles.h2}>Why People need a</h1>
@@ -28,6 +46,7 @@ const AboutusPage = () => {
             <button>Join us</button>
             <button style={{ marginLeft: "2rem" }}>Read more</button>
           </div>
+        </div>
         </div>
         <div className={styles.main}>
           <p>
@@ -56,6 +75,7 @@ const AboutusPage = () => {
             technology to elevate your wellness journey.
           </p>
         </div>
+      
 
         <Ourteam />
         <AboutusContent />

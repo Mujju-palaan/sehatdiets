@@ -1,6 +1,8 @@
 .main {
-  display: flex;
-  padding: 3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
 }
 /* .card:hover {
     transform: scale(1.1);
@@ -8,9 +10,12 @@
 .imgs {
   /* border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px; */
+  width: 34rem;
+  height: auto;
   border-radius: 20px;
   object-fit: cover;
   background-size: contain;
+  margin: 0%;
 }
 .card {
   transition: transform 0.5s;
@@ -50,4 +55,37 @@
   transition: all 0.5s;
   -moz-user-select: none;
   user-select: none;
+}
+@media screen and (max-width: 400px) {
+  .main {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
+  /* .card:hover {
+      transform: scale(1.1);
+    } */
+  .imgs {
+    /* border-bottom-left-radius: 150px;
+      border-bottom-right-radius: 150px; */
+
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    background-size: contain;
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (min-width: 1350px) {
+
 }

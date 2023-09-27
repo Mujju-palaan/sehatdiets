@@ -5,6 +5,9 @@ import React from "react";
 import KitsCom from "../../../../components/Kits/KitsCom";
 import HomeSlider from "./HomeSlider";
 import Challenge from "./Challenge";
+import HomeSwiper from './HomeSwiper'
+import Card from "../../../../components/planscard/Card";
+import SwiperPro from './SwiperPro'
 
 const HomePage = () => {
   return (
@@ -29,8 +32,9 @@ const HomePage = () => {
       </h1>
 
       {/* ********************SLIDERS************************************ */}
-      <HomeSlider />
-
+      {/* <HomeSwiper /> */}
+      {/* <HomeSlider /> */}
+      <SwiperPro />
       {/* ********************SLIDERS************************************ */}
 
       <Challenge />
