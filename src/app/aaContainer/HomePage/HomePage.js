@@ -3,10 +3,7 @@ import Homepage1 from "./Homepage1";
 import "./HomePage.css";
 import React from "react";
 import KitsCom from "../../../../components/Kits/KitsCom";
-import HomeSlider from "./HomeSlider";
 import Challenge from "./Challenge";
-import HomeSwiper from './HomeSwiper'
-import Card from "../../../../components/planscard/Card";
 import SwiperPro from './SwiperPro'
 
 const HomePage = () => {

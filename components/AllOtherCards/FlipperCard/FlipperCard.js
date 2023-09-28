@@ -3,12 +3,12 @@ import "./FlipperCard.css";
 const FlipperCard = () => {
   return (
     <>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
+      <div className="card">
+        <div className="card-inner">
+          <div className="card-front">
             <p>Front Side</p>
           </div>
-          <div class="card-back">
+          <div className="card-back">
             <p>Back Side</p>
           </div>
         </div>
